@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './3DCarousel.css'
-import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io'
+import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from './svg'
 
 const Boolean = [true , false]
 

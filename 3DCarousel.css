@@ -108,11 +108,6 @@
     display: none;
 }
 
-.test{
-    position: absolute;
-    background: red;
-}
-
 @media screen and (max-width: 750px){
     .carousel_____arrow-indicators{
         font-size: 2rem;
