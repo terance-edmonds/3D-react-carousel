@@ -1,0 +1,126 @@
+.carousel_____container{
+    width: 90vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 800px;
+}
+
+.carousel_____image{
+    display: flex;
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: all 0.7s ease;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.carousel_____zIndex4{
+    z-index: 4;
+}
+.carousel_____zIndex3{
+    z-index: 3;
+}
+.carousel_____zIndex2{
+    z-index: 2;
+}
+
+.carousel____middle{
+    transform: translateX(0) scale(1.1) rotateY(0);
+    opacity: 1;
+    filter: blur(0);
+    cursor: pointer;
+}
+
+.carousel____right, .carousel____left{
+    opacity: 0.6;
+    filter: blur(3px);
+    pointer-events: none;
+}
+
+.carousel____left{
+    transform: translateX(-17vw) scale(0.9) rotateY(10deg);
+}
+
+.carousel____right{
+    transform: translateX(17vw) scale(0.9) rotateY(-10deg);
+}
+
+.carousel_____arrow-indicators{
+    z-index: 6;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.carousel_____indicators-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 90vw;
+}
+
+.carousel_____image-overlay{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    position: absolute;
+    width: 50vw;
+    height: 53vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0, 0.4);
+    z-index: 5;
+    flex-direction: column;
+    letter-spacing: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    transform-origin: bottom;
+    border-radius: 7px;
+    transform: scale(1.1);
+}
+
+.carousel_____image-overlay-enter{
+    transform: scaleX(1.1) scaleY(1.1);
+    opacity: 1;
+}
+
+.carousel_____image-overlay-leave{
+    transform: scaleX(0) scaleY(1.1);
+    opacity: 0;
+}
+
+.carousel_____image-container-wrapper{
+    position: absolute;
+    width: 50vw;
+    height: 50vh;
+}
+
+.carousel_____image-overlay-disabled{
+    display: none;
+}
+
+.test{
+    position: absolute;
+    background: red;
+}
+
+@media screen and (max-width: 750px){
+    .carousel_____arrow-indicators{
+        font-size: 2rem;
+    }
+    
+    .carousel_____indicators-wrapper{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100vw;
+    }
+}

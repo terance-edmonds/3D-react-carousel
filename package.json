@@ -1,0 +1,21 @@
+{
+  "name": "3D-carousel-reactJs",
+  "version": "1.0.0",
+  "description": "3D responsive and customizable carousel for reactJs",
+  "main": "3DCarousel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terance-edmonds/3D-carousel-reactjs.git"
+  },
+  "keywords": [
+    "3d-carousel",
+    "3d-carousel-react",
+    "3d-carousel-customizable",
+    "3d-carousel-responsive"
+  ],
+  "author": "T.A.Edmonds",
+  "license": "ISC"
+}
