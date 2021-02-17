@@ -1,6 +1,6 @@
 {
-  "name": "@terance-edmonds/3D-carousel-reactJs",
-  "version": "1.0.0",
+  "name": "t-a-e-3d-carousel-reactjs",
+  "version": "1.0.1",
   "description": "3D responsive and customizable carousel for reactJs",
   "main": "3DCarousel.js",
   "scripts": {

@@ -5,7 +5,7 @@ A resposive and customizable carousel for reactJs
 ## Get Started
 
 ### npm
-> npm i 3D-carousel-reactJs
+    npm i t-a-e-3d-carousel-reactjs
 
 ## information
 
@@ -36,7 +36,7 @@ A resposive and customizable carousel for reactJs
 
 
 ### usage
-    import { Carousel } from '@terance-edmonds/3D-carousel-reactJs'
+    import { Carousel } from 't-a-e-3d-carousel-reactjs'
 
     function App () {
 
