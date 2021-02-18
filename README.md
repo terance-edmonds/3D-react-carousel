@@ -1,6 +1,7 @@
 # 3D-Carousel-ReactJs
 
 A resposive and customizable carousel for reactJs
+you can see the preview [here](https://terance-edmonds.github.io/3D-carousel-reactjs/)
 
 ## Get Started
 
@@ -40,7 +41,7 @@ A resposive and customizable carousel for reactJs
 
     function App () {
 
-        const Images = {
+        const Images = [
             {
                 title: 'title 1',
                 url: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8Y2Fyc3xlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60'
@@ -53,7 +54,11 @@ A resposive and customizable carousel for reactJs
                 title: '',
                 url: 'https://images.unsplash.com/photo-1517672651691-24622a91b550?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1189&q=80'
             },
-        }
+            {
+                url: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
+            },
+        ]
+
 
      return (
          <Carousel imageList={Images} />
