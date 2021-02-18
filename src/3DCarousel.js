@@ -2,9 +2,7 @@ import React, { useEffect } from 'react'
 import './3DCarousel.css'
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io'
 
-const Boolean = [true , false]
-
-export const Carousel = ({
+const Carousel = ({
     imageList,
     imageClassName,
     id,
@@ -14,7 +12,9 @@ export const Carousel = ({
     showArrows,
     overlayClassName,
     interval
-}) =>{
+}) => {
+
+    const Boolean = [true , false]
 
     const showArrowsStatus = Boolean.includes(showArrows) ? showArrows : Boolean[0]
 
@@ -164,3 +164,6 @@ export const Carousel = ({
         </div>
     )
 }
+
+
+export default Carousel

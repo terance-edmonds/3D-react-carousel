@@ -36,7 +36,7 @@ A resposive and customizable carousel for reactJs
 
 
 ### usage
-    import { Carousel } from 't-a-e-3d-carousel-reactjs'
+    import Carousel from 't-a-e-3d-carousel-reactjs'
 
     function App () {
 

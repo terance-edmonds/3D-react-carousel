@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/3DCarousel.js",
   output: {
     path: path.resolve("build"),
-    filename: "./src/3DCarousel.js",
+    filename: "3DCarousel.js",
     libraryTarget: "commonjs2"
   },
   module: {

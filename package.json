@@ -1,6 +1,6 @@
 {
   "name": "t-a-e-3d-carousel-reactjs",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "3D responsive and customizable carousel for reactJs",
   "main": "./build/3DCarousel.js",
   "scripts": {
@@ -29,7 +29,6 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "react": "^16.12.0",
     "react-icons": "^4.2.0"
   }
 }
