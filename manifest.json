@@ -1,0 +1,8 @@
+{
+  "short_name": "3d-carousel-reactjs",
+  "name": "3d-carousel-reactjs",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
